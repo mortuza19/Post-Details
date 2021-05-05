@@ -1,0 +1,102 @@
+{
+  "configVersion": 1,
+  "timestamp": 1620224626373,
+  "index": "https://mortuza19.github.io/Post-Details/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://mortuza19.github.io/Post-Details/favicon.ico",
+        "https://mortuza19.github.io/Post-Details/index.html",
+        "https://mortuza19.github.io/Post-Details/main.b704f645bf1d79e02cdd.js",
+        "https://mortuza19.github.io/Post-Details/manifest.webmanifest",
+        "https://mortuza19.github.io/Post-Details/polyfills.b9ec072fe83488c40b6c.js",
+        "https://mortuza19.github.io/Post-Details/runtime.7b63b9fd40098a2e8207.js",
+        "https://mortuza19.github.io/Post-Details/styles.dbc4a2089f8cfa9f92a4.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://mortuza19.github.io/Post-Details/assets/icons/icon-128x128.png",
+        "https://mortuza19.github.io/Post-Details/assets/icons/icon-144x144.png",
+        "https://mortuza19.github.io/Post-Details/assets/icons/icon-152x152.png",
+        "https://mortuza19.github.io/Post-Details/assets/icons/icon-192x192.png",
+        "https://mortuza19.github.io/Post-Details/assets/icons/icon-384x384.png",
+        "https://mortuza19.github.io/Post-Details/assets/icons/icon-512x512.png",
+        "https://mortuza19.github.io/Post-Details/assets/icons/icon-72x72.png",
+        "https://mortuza19.github.io/Post-Details/assets/icons/icon-96x96.png",
+        "https://mortuza19.github.io/Post-Details/assets/login-image.jpeg",
+        "https://mortuza19.github.io/Post-Details/assets/user.json",
+        "https://mortuza19.github.io/Post-Details/login-image.8f8d8cdc38e7a34a6f45.jpeg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "post",
+      "patterns": [
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/posts"
+      ],
+      "strategy": "freshness",
+      "maxSize": 5,
+      "maxAge": 21600000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://mortuza19.github.io/Post-Details/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://mortuza19.github.io/Post-Details/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://mortuza19.github.io/Post-Details/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://mortuza19.github.io/Post-Details/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://mortuza19.github.io/Post-Details/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://mortuza19.github.io/Post-Details/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://mortuza19.github.io/Post-Details/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://mortuza19.github.io/Post-Details/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://mortuza19.github.io/Post-Details/assets/login-image.jpeg": "25c03b936b117dbe73addfa812fb0cb3cfc5d2f8",
+    "https://mortuza19.github.io/Post-Details/assets/user.json": "f4db55060677fac2c11f497eb15e53f282323524",
+    "https://mortuza19.github.io/Post-Details/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://mortuza19.github.io/Post-Details/index.html": "0b49f8065cc4496a7b872f3e082ac68f0cada71d",
+    "https://mortuza19.github.io/Post-Details/login-image.8f8d8cdc38e7a34a6f45.jpeg": "25c03b936b117dbe73addfa812fb0cb3cfc5d2f8",
+    "https://mortuza19.github.io/Post-Details/main.b704f645bf1d79e02cdd.js": "c5e3457e2e195fc170519bd4f8cc9e47e0ef04d3",
+    "https://mortuza19.github.io/Post-Details/manifest.webmanifest": "95818beec19ec4b25e1c71cd9550326480761788",
+    "https://mortuza19.github.io/Post-Details/polyfills.b9ec072fe83488c40b6c.js": "587930b9b17d188b4b5cd9c4a2f5b0595f155fd7",
+    "https://mortuza19.github.io/Post-Details/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://mortuza19.github.io/Post-Details/styles.dbc4a2089f8cfa9f92a4.css": "a1066f29caead43bd64bc1a10b8e0ed8ad247b28"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
