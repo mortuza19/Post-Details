@@ -1,6 +1,6 @@
 {
-  "name": "jest-demo",
-  "short_name": "jest-demo",
+  "name": "Post-Details",
+  "short_name": "Post-Details",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "jest-demo": {
+    "Post-Details": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/jest-demo",
+            "outputPath": "dist/Post-Details",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "jest-demo:build"
+            "browserTarget": "Post-Details:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "jest-demo:build:production"
+              "browserTarget": "Post-Details:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "jest-demo:build"
+            "browserTarget": "Post-Details:build"
           }
         },
         "lint": {
@@ -102,16 +102,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "jest-demo:serve"
+            "devServerTarget": "Post-Details:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "jest-demo:serve:production"
+              "devServerTarget": "Post-Details:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "jest-demo"
+  "defaultProject": "Post-Details"
 }
