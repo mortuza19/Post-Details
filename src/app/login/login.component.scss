@@ -1,0 +1,69 @@
+.login-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url('../../assets/login-image.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.login-card {
+  width: 50%;
+  min-height: 300px;
+  min-width: 300px;
+  border-radius: 4px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  padding: 24px;
+  color: white;
+  backdrop-filter: blur(2px);
+  font-weight: 500;
+  max-width: 500px;
+}
+
+.background-blur {
+  opacity: 0.2;
+  background-color: white;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 100%;
+  display: inline-block;
+  height: 40px;
+  padding: 2px;
+  box-sizing: border-box;
+  padding-left: 8px;
+}
+
+.form-control-section {
+  margin-top: 8px;
+}
+
+.form-button-section {
+  margin-top: 36px;
+}
+
+.login-button {
+  width: 100%;
+}
+
+.validation-error {
+  font-size: small;
+  font-weight: 400;
+  color: red;
+}
+
+.input-error {
+  border: 1px solid red;
+}

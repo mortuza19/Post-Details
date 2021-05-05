@@ -1,0 +1,55 @@
+<div class="login-background">
+  <div class="login-card background-blur"></div>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="login-card">
+      <div class="form-control-section">
+        <label for="id">User Id</label>
+        <input
+          type="text"
+          [ngClass]="{
+            'input-error': userid.touched && userid.hasError('required')
+          }"
+          formControlName="user_id"
+          name="id"
+          id="id"
+          placeholder="User Id"
+        />
+        <div
+          class="validation-error"
+          *ngIf="userid.touched && userid.hasError('required')"
+        >
+          Please provide a valid userid!
+        </div>
+      </div>
+      <div class="form-control-section">
+        <label for="pwd">Password</label>
+        <input
+          type="password"
+          [ngClass]="{ 'input-error': pwd.touched && pwd.hasError('required') }"
+          formControlName="pwd"
+          name="pwd"
+          id="pwd"
+          placeholder="Password"
+        />
+        <div
+          class="validation-error"
+          *ngIf="
+            pwd.touched &&
+            (pwd.hasError('required') || pwd.hasError('minlength'))
+          "
+        >
+          Please provide a valid password!
+        </div>
+      </div>
+      <div class="form-button-section">
+        <button
+          class="btn btn-danger login-button"
+          [disabled]="loginForm.invalid"
+          type="submit"
+        >
+          Login
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
